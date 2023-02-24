@@ -13,3 +13,5 @@ Movie.create(title: "Ocean's Eight", overview: "Debbie Ocean, a criminal masterm
 10.times do
   List.create(name: Faker::Cannabis.cannabinoid)
 end
+
+
