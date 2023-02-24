@@ -19,6 +19,8 @@
 </ul>
 <br>
 
+<%= cl_image_tag @list.photo.key, height: 300, width: 400, crop: :fill %>
+
 <%= link_to "Delete",
   list_path(@list),
   data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
